@@ -9,4 +9,4 @@ When you use iframe for one or more outsource page, the iframe height or width c
 
 
 ## Live Screenshot
-![SS]()
+![SS](https://github.com/batuhankok/html-iframe-and-parent/blob/master/screen.gif?raw=true)

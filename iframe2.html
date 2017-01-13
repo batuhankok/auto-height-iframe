@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    
+    <title>Relationship between Iframe & Parent</title>
+    <meta name="author" content="Batuhan Kök - http://batuhan.me">
+
+</head>
+
+<body>
+    
+    <div id="content" style="border:2px solid red;height: 400px; text-align: center">
+    
+        <br>
+        <br>
+    
+        <b>here is the iframe2.html page (height: 400px)</b>
+        
+        <br>
+        
+        <a href="iframe1.html">go to iframe2.html</a>
+        
+    </div>
+    
+    <script type="text/javascript">
+    
+        function windowHeight(){
+            return document.getElementById('content').clientHeight + 30;
+        }
+        
+    </script>
+
+</body>
+
+</html>

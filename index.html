@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="utf-8">
+    
+    <title>Relationship between Iframe & Parent</title>
+    <meta name="author" content="Batuhan Kök - http://batuhan.me">
+    
+    <style>
+        * { box-sizing: border-box; }
+        iframe { border: 5px solid darkblue; width: 400px; height: auto; }
+    </style>
+
+</head>
+
+<body>
+   
+    <h3>Iframe is on the bottom...</h3>
+    
+    <iframe src="iframe1.html" id="iframe"></iframe>
+    
+    <script type="text/javascript">
+    
+        window.onload = function(){
+            
+            setInterval(function(){
+                
+                var iframeHeight = document.getElementById('iframe').contentWindow.windowHeight();
+                document.getElementById('iframe').style.height = iframeHeight + "px";
+                
+            }, 10);
+            
+        }
+        
+    </script>
+
+</body>
+
+</html>

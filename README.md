@@ -6,3 +6,7 @@
 
 ## Relationship between Iframe and its Parent!
 When you use iframe for one or more outsource page, the iframe height or width can be longer then you actually need. This repo will solve this problem!
+
+
+## Live Screenshot
+![SS]()
